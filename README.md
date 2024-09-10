@@ -18,13 +18,23 @@ Ensure that the following Python packages are installed:
 - `folium`: For creating maps with your location data.
 - Webdriver (Chrome): Required for Selenium to open the HTML file in a browser.
 
-You can install these dependencies using the following command:
+## Installation
+To install the required packages, follow these steps:
+
+Make sure you have Python installed on your system.
+
+Navigate to the project directory in your terminal or command prompt.
+
+Run the following command to install the dependencies listed in the requirements.txt file:
 
 ```
-pip install requests selenium folium
+pip install -r requirements.txt
 ```
+This will install all the necessary packages, including requests, selenium, and folium.
 
-Also, download the Chrome WebDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and ensure it is accessible in your system's PATH.
+(Optional) If you're using Selenium, ensure you have a compatible browser (e.g., Chrome) installed. The webdriver-manager package will automatically handle downloading the correct WebDriver.
+
+Download the Chrome WebDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and ensure it is accessible in your system's PATH.
 
 ## How to Use
 
